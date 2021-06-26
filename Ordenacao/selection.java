@@ -1,4 +1,4 @@
-package ordenacao;
+package ordem;
 
 import java.io.IOException;
 
