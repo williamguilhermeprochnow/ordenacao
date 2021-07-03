@@ -282,7 +282,6 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
             break;
             
-            //Verificar que mesmo selecionando outra opção, o sistema ordena
            
         }
         
