@@ -244,10 +244,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         {
             case "Insertion Sort": 
             {
-                InsertionSort OrdenacaoInsertion = new InsertionSort();
-                OrdenacaoInsertion.InsertionSort(dadosArquivoNumero);
+                
                 
                 long tempoInicial = System.currentTimeMillis();
+                
+                InsertionSort OrdenacaoInsertion = new InsertionSort();
+                OrdenacaoInsertion.InsertionSort(dadosArquivoNumero);
                 
                 long tempoFinal = System.currentTimeMillis();
 
@@ -258,10 +260,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
             
             case "Quick Sort"    : 
             {
-                QuickSort OrdenacaoQuick = new QuickSort();
-                OrdenacaoQuick.QuickSort(dadosArquivoNumero, 0, dadosArquivoNumero.size() - 1);
+                
                 
                 long tempoInicial = System.currentTimeMillis();
+                
+                QuickSort OrdenacaoQuick = new QuickSort();
+                OrdenacaoQuick.QuickSort(dadosArquivoNumero, 0, dadosArquivoNumero.size() - 1);
                 
                 long tempoFinal = System.currentTimeMillis();
 
@@ -271,10 +275,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
             
             case "Selection Sort": 
             {
-                InsertionSort OrdenacaoInsertion = new InsertionSort();
-                OrdenacaoInsertion.InsertionSort(dadosArquivoNumero);
+               
                 
                 long tempoInicial = System.currentTimeMillis();
+                
+                SelectionSort OrdenacaoSelection = new SelectionSort();
+                OrdenacaoSelection.SelectionSort(dadosArquivoNumero);
                 
                 long tempoFinal = System.currentTimeMillis();
 
@@ -282,6 +288,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
             break;
             
+         
            
         }
         
